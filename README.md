@@ -3,9 +3,9 @@
 See who's connected to your Wi-Fi network easily on your phone, even **when you're away from home**.
 Also, logs are saved every couple of mintutes on your computer for you to view later.
 
-TODO insert gif
+![screen capture](https://raw.githubusercontent.com/ozmerchavy2/who-is-app/master/assets-for-github/RPReplay-Final1661005208.gif)
 
-Built for windows, dependent on ngrok, nmap and Insomnia to keep your computer on.
+Built for windows, dependent on ngrok, nmap and insomnia to keep your computer on.
 
 ## How to Run
 
@@ -17,8 +17,15 @@ Built for windows, dependent on ngrok, nmap and Insomnia to keep your computer o
 
 3. `run-me.bat` (you can also create a shortcut to this file)
 
-The link will appear in *ngrok*'s terminal; browse it on your phone from anywhere!
+The link will appear in *ngrok*'s terminal; browse it on your phone from anywhere.
 
-If chrome wanrs you against ngrok, don't worry;
+---
+
+If chrome warns you against ngrok, don't worry;
 Some people use ngrok to create fishing servers.
-We promise we're good
+
+credits for
+- ngrok
+- nmap-python
+- insomnia
+- hacker.css
