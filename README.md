@@ -3,7 +3,7 @@
 See who's connected to your Wi-Fi network easily on your phone, even **when you're away from home**.
 Also, logs are saved every couple of mintutes on your computer for you to view later.
 
-<img src="[drawing.jpg](https://raw.githubusercontent.com/ozmerchavy2/who-is-app/master/assets-for-github/RPReplay-Final1661005208.gif)" alt="screen capture" width="200"/>
+![screen capture](https://raw.githubusercontent.com/ozmerchavy2/who-is-app/master/assets-for-github/screen-capture.gif)
 
 Built for windows, dependent on ngrok, nmap and insomnia to keep your computer on.
 
