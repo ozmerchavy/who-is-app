@@ -1,0 +1,40 @@
+
+
+.online-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+
+.typewriter p{
+    overflow: hidden; 
+    color: transparent;
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    font-size: 1.6rem !important;
+    --blink-time: .75;
+
+    animation: 
+      typing var(--duration) steps(var(--text-len)) forwards,
+      blink-caret calc(var(--blink-time) * 1s) step-end calc(var(--duration) / var(--blink-time));
+
+    animation-delay: var(--delay, 0);
+
+    margin: 0 !important;
+  }
+
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0; color:var(--main-color)}
+    to { width: 100%; color:var(--main-color) }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--main-color); }
+  }

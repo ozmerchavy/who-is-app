@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root{
+  --main-color: #00b300;
+}
+
+* {
+   font-family: 'Syne Mono', monospace !important;
+    background-color: black !important;
+    scroll-behavior: smooth;
+}
+
+.lds-ripple {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+span.removed {
+    text-decoration: line-through !important;
+}
